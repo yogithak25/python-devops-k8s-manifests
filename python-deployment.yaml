@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: python-app-deployment
+  name: python-devops-deployment
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: python-devops-automation-app
+      app: python-devops-automation-project
   template:
     metadata:
       labels:
-        app: python-devops-automation-app
+        app: python-devops-automation-project
     spec:
       containers:
       - name: python-app-container
