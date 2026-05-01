@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: python-app-container
-        image: yogithak/python-devops-automation-project:7
+        image: yogithak/python-devops-automation-project:3
         ports:
         - containerPort: 5000
